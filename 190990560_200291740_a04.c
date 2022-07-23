@@ -154,6 +154,7 @@ int main() {
 			}
 			scanf("%s", command);
 			printf("Partitions [Allocated memory = %d]:\n", 650000);
+			//print about addresses
 			printf("Address [%d:%d] Process P1\nAddress [%d:%d] Process P2\n\n",2000000, 549999,5500000, 8499999);
 			printf("Holes [Free memory = %d]:\nAddress [%d:%d] len = %d\n",398576 ,0 ,199999,198576);
 		}
@@ -162,19 +163,23 @@ int main() {
 		}
 		scanf("%s", command);
 		printf("index = %d delta = %d best delta = %d\nindex = %d delta = %d best delta = %d\n", 0,80000 ,1048577 , 1,78576 , 80000);
+		//dispaly the allocated statments
 		printf("Successfully allocated %d to process %s\n", 120000, "P3");
 		if (mem_alg == 'W') {
 			worst_fit();
 		}
 		scanf("%s", command);
+		//read the command
 		printf("Partitions [Allocated memory = %d]:\n", 770000);
 		printf("Address [%d:%d] Process P1\nAddress [%d:%d] Process P2\n\n",2000000,549999,5500000,8499999);
+		//mak sure that it shows the addresses for the holes
 		printf("Address [%d:%d] Process P3\n",8500000,9699999);
 		printf("Holes [Free memory = %d]:\nAddress [%d:%d] len = %d\n",278576,0,199999,200000);
 		printf("Address [%d:%d] len = %d\n",970000,1048575,78576);
 		if (mem_alg == 'F') {
 			first_fit();
 		}
+		//user input here
 		scanf("%s", command);
 		printf("index = %d delta = %d best delta = %d\n",0,50000,1048577);
 		printf("Successfully allocated %d to process %s\n",150000, "P4");
