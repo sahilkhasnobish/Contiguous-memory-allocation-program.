@@ -48,6 +48,7 @@ int main() {
 		Process process_list[3];
 
 		int exit = 0;
+		int temp1 = 0, temp2 = 1;
 		
 	
 		//extract data from user input
@@ -120,6 +121,32 @@ int main() {
 		scanf("%s", command);
 		printf("index = %d delta = %d best delta = %d\n",0,50000,1048577);
 		printf("Successfully allocated %d to process %s\n",150000, "P4");
+		/*
+		 char R[2];
+		 strcpy(R, token);
+
+		 token = strtok(NULL, d);
+		 char p[2];
+		 strcpy(p, token);
+
+		 token = strtok(NULL, d);
+		 char pid[6];
+		 strcpy(pid, token);
+
+		 token = strtok(NULL, d);
+		 char mem_alg[1];
+		 strcpy(mem_alg, token);
+
+		 printf("%s", p);
+		 */
+		//printf(token);
+		
+		
+		if (temp1 == temp2) {
+			scanf("%s", command);
+			char *d = " ";
+			char *token = strtok(command, d);
+		}
 
 	}
 }
