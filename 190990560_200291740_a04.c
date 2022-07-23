@@ -23,7 +23,7 @@
 #include <semaphore.h>
 #include <stdbool.h>
 #define MAX //max memory as passed when program starts
-int partitions[3]; //each index represents a parition, the value in the index is the mem size
+
 
 void best_fit();
 void worst_fit();
@@ -211,7 +211,7 @@ int main() {
 void best_fit() {
 	int best_space = 0, max= 100;
 	for (int i = 0; i < 3; i++) {
-		if (partitions <= max)
+		//if (partitions <= max)
 			best_space = i;
 	}
 	partitions = best_space;
@@ -221,7 +221,7 @@ void best_fit() {
 void worst_fit() {
 	int worst_space = 0, max = 10000;
 	for (int i = 0; i < 3; i++) {
-		if (partitions <= max)
+		//if (partitions <= max)
 			worst_space = i;
 	}
 	partitions = worst_space;
@@ -230,7 +230,7 @@ void worst_fit() {
 void first_fit() {
 	int max = 100;
 	for (int i = 0; i < 3; i++) {
-		if (partitions >= max)
+		//if (partitions >= max)
 			partitions = max;
 		//break;
 	}
