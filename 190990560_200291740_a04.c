@@ -31,6 +31,24 @@ void first_fit();
 
 int partitions = 0; //each index represents a parition, the value in the index is the mem size
 
+//ADD HERE
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//ADD HERE
+
 
 typedef struct process {
 	int pid;
@@ -66,6 +84,27 @@ int main() {
 		p.pid = pid;
 		p.size = size;
 		p.mem_alg = mem_alg;
+		
+		
+		
+		
+		//ADD HERE
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		//ADD HERE
 
 		//add process to process_list
 		scanf("%s", command);
@@ -87,7 +126,27 @@ int main() {
 			process_list[count] = p;
 		scanf("%s", command);
 		printf("Successfully released memory for process %s\n", "P0");
+		
+		
+		
+		
+		//ADD HERE
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		//ADD HERE
 
 
 		//call appropriate algorithm function
