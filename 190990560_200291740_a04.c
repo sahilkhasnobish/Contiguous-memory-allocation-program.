@@ -33,7 +33,15 @@ int partitions = 0; //each index represents a parition, the value in the index i
 
 //ADD HERE
 
+for (int i = 0; i < 2; i++) {
+	printf("%c", command[i]);
+}
 
+for (int i = 3; i < 5; i++) {
+	printf("%c", command[i]);
+}
+
+printf("%c", command[13]);
 
 
 
