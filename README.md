@@ -25,4 +25,5 @@ worst_fit()
 - searches through memory to find the worst space available
 
 About Developers:
-Sahil Khasnobish - 4th Computer Science student
+Sahil Khasnobish - 4th year Computer Science student
+Jaini Patel - 3rd year BBA and Computer Science student
