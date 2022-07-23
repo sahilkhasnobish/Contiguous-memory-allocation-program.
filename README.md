@@ -17,12 +17,12 @@ main()
 
 best_fit()
 - searches through memory to find a hole with the most efficient space that fits best 
-- worked on it together
 
 first_fit()
 - finds the first space available 
-- worked on it together
 
 worst_fit()
 - searches through memory to find the worst space available
-- worked on it together
+
+About Developers:
+Sahil Khasnobish - 4th Computer Science student
