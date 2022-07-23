@@ -13,8 +13,21 @@
  Version  2022-07-15
  -------------------------------------
  */
+#include <unistd.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <pthread.h>
+#include <sys/stat.h>
+#include <time.h>
+#include <semaphore.h>
+#include <stdbool.h>
 #define MAX //max memory as passed when program starts
 int partitions[3]; //each index represents a parition, the value in the index is the mem size
+
+void best_fit();
+void worst_fit();
+void first_fit();
 
 for(int i=0;i<2;i++) {
 	paritions[i] = 0;
