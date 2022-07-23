@@ -1,6 +1,7 @@
 # CP-386-A4
 Project Discription:
-Ccontiguous memory allocation program.
+
+Title: Contiguous memory allocation program.
 
 Definitions/global variables:
 - MAX - the maximum memory, passed as a parameter when program is executed 
@@ -25,5 +26,5 @@ worst_fit()
 - searches through memory to find the worst space available
 
 About Developers:
-Sahil Khasnobish - 4th year Computer Science student
-Jaini Patel - 3rd year BBA and Computer Science student
+- Sahil Khasnobish - 4th year Computer Science student
+- Jaini Patel - 3rd year BBA and Computer Science student
