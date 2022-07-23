@@ -32,7 +32,7 @@ void first_fit();
 int partitions = 0; //each index represents a parition, the value in the index is the mem size
 
 //ADD HERE
-
+/*
 for (int i = 0; i < 2; i++) {
 	printf("%c", command[i]);
 }
@@ -42,19 +42,7 @@ for (int i = 3; i < 5; i++) {
 }
 
 printf("%c", command[13]);
-
-
-
-
-
-
-
-
-
-
-
-
-
+*/
 //ADD HERE
 
 
@@ -97,6 +85,7 @@ int main() {
 		
 		
 		//ADD HERE
+		/*
 
 		char R[2];
 		strcpy(R, token);
@@ -112,20 +101,7 @@ int main() {
 		token = strtok(NULL, d);
 		char mem_alg[1];
 		strcpy(mem_alg, token);
-
-
-
-
-
-
-
-
-
-
-
-
-
-		//ADD HERE
+		*/
 
 		//add process to process_list
 		scanf("%s", command);
@@ -149,9 +125,8 @@ int main() {
 		printf("Successfully released memory for process %s\n", "P0");
 		
 		
-		
-		
 		//ADD HERE
+		/*
 		if (mem_alg == 'B') {
 		 best_fit(p);
 		 }
@@ -161,20 +136,7 @@ int main() {
 		 if (mem_alg == 'F') {
 		 first_fit();
 		 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+		 */
 		//ADD HERE
 		if (count == 0)
 		 process_list[count] = p;
