@@ -98,7 +98,20 @@ int main() {
 		
 		//ADD HERE
 
+		char R[2];
+		strcpy(R, token);
 
+		token = strtok(NULL, d);
+		char p[2];
+		strcpy(p, token);
+
+		token = strtok(NULL, d);
+		char pid[6];
+		strcpy(pid, token);yes 
+
+		token = strtok(NULL, d);
+		char mem_alg[1];
+		strcpy(mem_alg, token);
 
 
 
@@ -139,7 +152,15 @@ int main() {
 		
 		
 		//ADD HERE
-
+		if (mem_alg == 'B') {
+		 best_fit(p);
+		 }
+		 if (mem_alg == 'W') {
+		 worst_fit();
+		 }
+		 if (mem_alg == 'F') {
+		 first_fit();
+		 }
 
 
 
@@ -155,7 +176,14 @@ int main() {
 
 
 		//ADD HERE
-
+		if (count == 0)
+		 process_list[count] = p;
+		 count += 1;
+		 if (count == 1)
+		 process_list[count] = p;
+		 count += 1;
+		 if (count == 1)
+		 process_list[count] = p;
 
 		//call appropriate algorithm function
 		if(1==1){
